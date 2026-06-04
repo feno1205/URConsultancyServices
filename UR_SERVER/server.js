@@ -47,3 +47,7 @@ app.listen(PORT, () => {
   console.log(`Server Running on ${PORT}`);
 });
 
+app.get("/", (req, res) => {
+  res.send("Backend Running Successfully");
+});
+
