@@ -12,13 +12,13 @@ const app = express();
 
 app.use(cors({
     origin: [
-      "http://localhost:5173",
       "https://ur-consultancy-services.vercel.app",
       "https://urconsultancyservices.com",
-      "https://www.urconsultancyservices.com",
+      "https://www.urconsultancyservices.com"
     ],
     credentials: true,
   }));
+
 app.use(express.json());
 
 
