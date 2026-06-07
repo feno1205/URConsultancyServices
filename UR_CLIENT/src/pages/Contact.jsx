@@ -138,7 +138,7 @@ function Contact() {
                                         </h3>
 
                                         <p className="text-gray-600 text-lg">
-                                            lyrarealtors@gmail.com
+                                            Propertyp422@gmail.com
                                         </p>
 
                                     </div>
